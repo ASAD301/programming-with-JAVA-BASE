@@ -17,7 +17,9 @@ public class Main {
 		tObject.getName();
 		tObject.getQualification();
 		tObject.getphoneNumber();
-
+		// checking inheritance:: Object instanceof Class
+		System.out.println(tObject instanceof Person);
+		
 	}
 
 }

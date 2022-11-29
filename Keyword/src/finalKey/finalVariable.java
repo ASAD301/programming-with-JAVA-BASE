@@ -15,6 +15,12 @@ public class finalVariable {
 		// for final UNIVERSITY can not change 
 	}
 	
+	void display() {
+		System.out.println(this.fees);
+		System.out.println(this.fees1);
+		
+	}
+	
 	
 
 }

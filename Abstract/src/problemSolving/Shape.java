@@ -6,23 +6,23 @@ public abstract class Shape {
 	
 	private int length;
 	private int width;
-	final double PI = 3.1416;
+	
 	
 	Scanner input = new Scanner(System.in);
-	int  setLength() {
-		System.out.println("entr the length");
-		return this.length = input.nextInt();
+	void  setLength() {
+		System.out.print("entr the length ");
+		 length = input.nextInt();
 	}
-	void getLength() {
-		System.out.println(this.length);
+	int getLength() {
+		return length;
 	}
 	
 	void setwidth() {
-		System.out.println("entr the width");
-		this.width = input.nextInt();
+		System.out.print("entr the width ");
+		width = input.nextInt();
 	}
-	void getwidth() {
-		System.out.println(this.width);
+	int getwidth() {
+		return width;
 	}
 	
 	abstract void display();

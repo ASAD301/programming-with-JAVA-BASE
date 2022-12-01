@@ -4,19 +4,24 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Shape Obj = null ;
-		Obj.setLength();
-		Obj.getLength();
 		
-		Obj.setwidth();
-		Obj.getwidth();
-		
-		// For Triangle
-		Obj = new Triangle();
-		
-		
-		
-		
+
+		 Triangle objt = new Triangle();// object of triangle 
+		 objt.setLength();
+		 objt.setwidth(); 
+		 objt.setHigh(); 
+		 objt.display();
+		 
+
+		 Rectangle objR = new Rectangle();
+		 objR.setLength();
+		 objR.setwidth();
+		 objR.display();
+		 
+
+		 Circle obj = new Circle();
+		 obj.setLength();
+		 obj.display();
 	}
 
 }

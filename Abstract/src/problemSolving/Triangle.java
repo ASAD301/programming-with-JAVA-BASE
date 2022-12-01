@@ -8,14 +8,23 @@ public class Triangle extends Shape {
 		System.out.println("Enter the high");
 		this.high = input.nextInt();
 		}
-	
-	double area = 1/2*this.high*super.setLength();
+	int getHigh() {
+		return this.high;
+	}
 
-	
+	/*
+	 * AREA of triangle 
+	 * */
+	double area() {
+		return +0.5*this.getHigh()*super.getLength();
+	}
 	@Override
 	 void display() {
 		System.out.println("I'M in Triangle class");
-		System.out.println("The area of Triangle : "+area);
+		
+		System.out.print(this.getHigh()+" ");
+		System.out.println(super.getLength());
+		System.out.println("The area of Triangle : "+this.area());
 	}
 
 }

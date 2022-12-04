@@ -2,6 +2,6 @@ package Animal2;
 
 public class Cow extends Cat {
 	@Override
-	void display() {
+	public void display() {
 		System.out.println("cow");
 	}}

@@ -6,7 +6,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Parent obj = new Child();
-		obj.display();
+		obj.display();  
+		
+		//Child obj = new Parent(); down cust not allow 
 
 	}
 

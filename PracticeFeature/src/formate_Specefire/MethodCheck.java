@@ -9,6 +9,12 @@ public class MethodCheck {
 		this.age = age;
 	}
 	
+	@Override
+	public String toString() {
+		return name+"\n"+age;
+		
+	}
+	
 	
 	
 	

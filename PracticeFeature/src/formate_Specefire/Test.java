@@ -9,13 +9,15 @@ public class Test {
 		double x = 2.846313613553;
 		double y = 546543.26546645;
 		
-		
+		// Decimal  formate specefire by object 
 		DecimalFormat object = new DecimalFormat("0.00");
 		
 		System.out.println(object.format(x));
 		System.out.println(object.format(y));
 		
-		MethodCheck obj1 = new MethodCheck("Apple", 29);
+		MethodCheck ob = new MethodCheck("Apple", 29);
+		System.out.println(ob);
+		
 
 	}
 	

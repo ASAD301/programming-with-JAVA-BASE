@@ -26,6 +26,7 @@ public class AL {
 		for(String i : number) {
 			System.out.println("is "+i);
 		}
+		System.out.println(number.size());
 
 	}
 

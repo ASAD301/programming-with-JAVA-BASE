@@ -8,9 +8,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		while(true) {
-			Scanner input = new Scanner(System.in);	
+	
 			try {
-				
+				Scanner input = new Scanner(System.in);	
 				System.out.print("Please enter number 1 = ");
 				int num1 = input.nextInt();
 				

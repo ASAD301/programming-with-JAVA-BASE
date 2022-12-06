@@ -6,9 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Scanner input = new Scanner(System.in);	
 		while(true) {
-			Scanner input = new Scanner(System.in);	
+			
 			try {
 				
 				System.out.print("Please enter number 1 = ");
